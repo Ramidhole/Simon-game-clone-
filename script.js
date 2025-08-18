@@ -67,7 +67,7 @@ function btnPress(){
     userColor = btn.getAttribute("id");
     userSeq.push(userColor);
 
-    checkAns(userSeq.level - 1);
+    checkAns(userSeq.length - 1);
 
 }
 
